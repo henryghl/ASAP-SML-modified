@@ -1,0 +1,103 @@
+name: asap
+channels:
+  # - anaconda
+  - conda-forge # main channel
+  # - defaults
+dependencies:
+# Some packages which are not found in conda-forge channel and have been commented out
+  - ca-certificates
+  - certifi
+  - openssl
+  - pandas
+  - pytz
+  # - appnope # only available for MacOS 
+  - attrs # causing freezing but installed
+  - backcall # causing freezing but installed
+  - bleach
+  - cycler
+  - decorator
+  - defusedxml
+  - entrypoints
+  - freetype
+  - graphviz
+  - icu
+  - importlib_metadata
+  - ipykernel
+  - ipython
+  - ipython_genutils
+  - ipywidgets
+  - jedi
+  - jinja2
+  - joblib
+  - jsonschema
+  - jupyter
+  - jupyter_client
+  - jupyter_console
+  - jupyter_core
+  - kiwisolver
+  - libblas #
+  - libcblas #
+  - libcxx #
+  - libffi
+  - libgfortran #m2win64 and related
+  - liblapack #
+  - libopenblas #
+  - libpng 
+  - libsodium
+  - libtiff
+  - llvm-openmp
+  - lz4-c
+  - markupsafe
+  - matplotlib
+  - matplotlib-base
+  - mistune
+  - more-itertools
+  - nbconvert
+  - nbformat
+  # - ncurses #m2 and related, not found in CLI env create
+  - notebook
+  - numpy
+  - pandoc
+  - pandocfilters
+  - parso
+  - pexpect
+  - pickleshare
+  - pip
+  - prometheus_client
+  - prompt_toolkit
+  - ptyprocess
+  - pydot
+  - pydotplus
+  - pygments
+  - pyparsing
+  - pyqt
+  - pyrsistent
+  - python
+  - python-dateutil
+  - pyzmq
+  - qt
+  - qtconsole
+  - scikit-learn
+  - scipy
+  - send2trash
+  - setuptools
+  - sip
+  - six
+  - terminado
+  - testpath
+  - tk
+  - tornado
+  - traitlets
+  - wcwidth
+  - webencodings
+  - wheel
+  - widgetsnbextension
+  - xz
+  - zeromq
+  - zipp
+  - zlib
+  - zstd
+  - biopython
+  - jpeg
+  # - readline #m2-readline, pyreadline3, readline-amzn2-aarch64, not found in CLI env create
+  - sqlite

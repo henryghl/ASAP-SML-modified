@@ -1,0 +1,109 @@
+name: asap
+channels:
+  # - anaconda
+  - conda-forge # main channel
+  # - defaults
+dependencies:
+- pandas
+- graphviz
+- jupyter
+- numpy
+- scikit-learn
+- scipy
+- biopython
+  # - ca-certificates
+  # - certifi
+  # - openssl
+  # - pandas
+  # - pytz
+  # # - appnope # only for MacOS 
+  # - attrs # causing freezing
+  # - backcall # causing freezing
+  # - bleach
+  # - cycler
+  # - decorator
+  # - defusedxml
+  # - entrypoints
+  # - freetype
+  # - graphviz
+  # - icu
+  # - importlib_metadata
+  # - ipykernel
+  # - ipython
+  # - ipython_genutils
+  # - ipywidgets
+  # - jedi
+  # - jinja2
+  # - joblib
+  # - jsonschema
+  # - jupyter
+  # - jupyter_client
+  # - jupyter_console
+  # - jupyter_core
+  # - kiwisolver
+  # - libblas
+  # - libcblas
+  # - libcxx
+  # - libffi
+  # - libgfortran
+  # - liblapack
+  # - libopenblas
+  # - libpng
+  # - libsodium
+  # - libtiff
+  # - llvm-openmp
+  # - lz4-c
+  # - markupsafe
+  # - matplotlib
+  # - matplotlib-base
+  # - mistune
+  # - more-itertools
+  # - nbconvert
+  # - nbformat
+  # - ncurses
+  # - notebook
+  # - numpy
+  # - pandoc
+  # - pandocfilters
+  # - parso
+  # - pexpect
+  # - pickleshare
+  # - pip
+  # - prometheus_client
+  # - prompt_toolkit
+  # - ptyprocess
+  # - pydot
+  # - pydotplus
+  # - pygments
+  # - pyparsing
+  # - pyqt
+  # - pyrsistent
+  # - python
+  # - python-dateutil
+  # - pyzmq
+  # - qt
+  # - qtconsole
+  # - scikit-learn
+  # - scipy
+  # - send2trash
+  # - setuptools
+  # - sip
+  # - six
+  # - terminado
+  # - testpath
+  # - tk
+  # - tornado
+  # - traitlets
+  # - wcwidth
+  # - webencodings
+  # - wheel
+  # - widgetsnbextension
+  # - xz
+  # - zeromq
+  # - zipp
+  # - zlib
+  # - zstd
+  # - biopython
+  # - jpeg
+  # - readline
+  # - sqlite
