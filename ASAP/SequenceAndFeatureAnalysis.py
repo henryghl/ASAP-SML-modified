@@ -40,6 +40,11 @@ def DuplicateSelectFeature(size, DatasetName, DatasetSize, AllFeatureVectors):
     SeqName_DS =[]
     previous = 0
     for i in range(len(DatasetSize)):
+        '''
+        print(f"CNT_TARGET: {CNT_TARGET} as {type(CNT_TARGET)}")
+        print(f"CNT_DB: {CNT_DB} as {type(CNT_DB)}")
+        print(f"Size: {size} as {type(size)}")
+        '''
         if i < CNT_DB:
             actual_size = int(size * CNT_TARGET / CNT_DB)
         else:
