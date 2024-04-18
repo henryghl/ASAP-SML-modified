@@ -1,8 +1,6 @@
 name: asap
 channels:
-  - anaconda
-  - conda-forge # main channel
-  - defaults
+- conda-forge # main channel
 dependencies:
 - pandas
 - graphviz
